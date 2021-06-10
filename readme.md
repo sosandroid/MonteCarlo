@@ -1,5 +1,5 @@
 # Monte Carlo
-La méthode de Monte Carlo permet d'évaluer la valeur de Pi de manière statistique.
+La méthode de Monte Carlo permet d'évaluer la valeur de Pi de manière statistique. Le détail est sur [Wikipedia](https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Monte-Carlo#D%C3%A9termination_de_la_valeur_de_%CF%80)
 
 ## Logiciel
 Le logiciel fonctionne en deux séquences. La première séquence réalise le tirage d'un point aussi aléatoire que possible et détermine s'il fait partie du cerle de rayon 1. La seconde gère la population statistique des points et compte le nombre de points dans le cercle afin de calculer l'approximation de Pi.
