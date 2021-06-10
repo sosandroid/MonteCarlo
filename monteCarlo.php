@@ -6,20 +6,21 @@
  * 05/06/2021
  *
  * Etude de l'influence du nombre de tirages sur l'approxamation de Pi
- * La fonction LanceLesTirages génère N tirages de taille M. Entre chaque lancé de tirageq, la taille M est multipliée par 10.
+ * La fonction lanceLesEvaluations génère N tirages de taille M. Entre chaque lancé de tirages, la taille M est multipliée par le facteur de croissance.
  *
  *************/
  
 //Définition de PI de manière plus précise que M_PI
 define('__pi', 3.141592653589793238462643383280);
+//Tableau qui recevra les approxuimations de Pi
+$tableauEvaluations = array(array("Population", "Approx Pi", "déviation en % par rapport à Pi"));
+
 
 /************** Exécution de la simulation *****************/
 
-//Tableau qui recevra les approxuimations de Pi
-$tableauEvaluations = array(array("Population", "Approx Pi", "déviation en % par rapport à Pi"));
 lanceLesEvaluations(4, 100, 10, $tableauEvaluations);
 afficheResult($tableauEvaluations);
-exit(0);
+exit(0); //fin du traitement
 
 /************** Partie fonctionnelle *****************/
 
