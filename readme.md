@@ -12,4 +12,6 @@ Le logiciel fonctionne en deux séquences. La première séquence réalise le ti
 "1000";"3.084";"1.833231100919"
 "10000";"3.1336";"0.25441406544735"
 "100000";"3.14492";"0.1059127257127"
+
 ````
+[![Buy me a coffee](./res/default-yellow.png)](https://www.buymeacoffee.com/ju9hJ8RqGk)
